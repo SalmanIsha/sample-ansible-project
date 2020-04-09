@@ -11,6 +11,11 @@ and run the flask app.
 
 'ansible-playbook python_app.yml -i inventory.txt'
 
+## Ansible roles
+
+To initialize roles folder structure run below command
+
+ansible-galaxy init mysql_db
 
 To run the jobs with ansible roles use below command
 
