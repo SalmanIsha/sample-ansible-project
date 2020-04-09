@@ -1,0 +1,14 @@
+---
+- name: Deploy a web application
+  hosts: all
+  become: true
+  tasks:
+    - include: tasks/dependencies.yaml
+    - include: tasks/deploy_db.yaml
+    - include: tasks/deploy_web.yaml
+
+
+
+
+
+
